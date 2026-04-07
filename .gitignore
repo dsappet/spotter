@@ -1,0 +1,12 @@
+# Externals pulled by the BigWigs packager (.pkgmeta).
+Libs/
+
+# Local packager build output.
+.release/
+
+# Editor / OS noise.
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/

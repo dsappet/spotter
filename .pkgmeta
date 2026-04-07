@@ -1,0 +1,17 @@
+package-as: Spotter
+
+externals:
+    Libs/HereBeDragons: https://repos.wowace.com/wow/herebedragons/trunk
+
+# Don't ship dev / repo metadata in the released zip.
+ignore:
+    - .git
+    - .github
+    - .gitignore
+    - .luacheckrc
+    - .pkgmeta
+    - scripts
+
+# Default is "yes" -- packager builds an extra zip with libs stripped, for
+# users who get libs via a standalone addon. We don't need that for Spotter.
+enable-nolib-creation: no

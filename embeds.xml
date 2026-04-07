@@ -1,8 +1,11 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
     <!--
-        HereBeDragons-2.0 must be dropped into Libs/HereBeDragons-2.0/.
-        Grab it from https://www.curseforge.com/wow/addons/herebedragons or
-        embed it via your packager (.pkgmeta).
+        HereBeDragons is pulled into Libs/HereBeDragons/ by the BigWigs
+        packager via .pkgmeta. For local dev, run:
+
+            curl -s https://raw.githubusercontent.com/BigWigsMods/packager/master/release.sh | bash -s -- -dlz
+
+        which produces .release/Spotter/ with externals already pulled.
     -->
-    <Include file="Libs\HereBeDragons-2.0\HereBeDragons-2.0.xml"/>
+    <Include file="Libs\HereBeDragons\HereBeDragons.xml"/>
 </Ui>
