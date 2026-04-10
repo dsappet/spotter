@@ -1,11 +1,10 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
     <!--
         HereBeDragons is pulled into Libs/HereBeDragons/ by the BigWigs
-        packager via .pkgmeta. For local dev, run:
-
-            curl -s https://raw.githubusercontent.com/BigWigsMods/packager/master/release.sh | bash -s -- -dlz
-
-        which produces .release/Spotter/ with externals already pulled.
+        packager via .pkgmeta. For local dev, run "make dev" which invokes
+        the packager and produces .release/Spotter/ with externals pulled.
     -->
-    <Include file="Libs\HereBeDragons\HereBeDragons.xml"/>
+    <Script file="Libs\HereBeDragons\HereBeDragons-2.0.lua"/>
+    <Script file="Libs\HereBeDragons\HereBeDragons-Pins-2.0.lua"/>
+    <Script file="Libs\HereBeDragons\HereBeDragons-Migrate.lua"/>
 </Ui>

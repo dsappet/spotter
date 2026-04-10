@@ -1,10 +1,10 @@
-## Interface: 110002
+## Interface: 120001
 ## Title: Spotter
-## Notes: Live ore-node tracking via minimap blips and the native WoW waypoint arrow
+## Notes: Routes you to the nearest known ore node (uses GatherMate2's database)
 ## Author: dsappet
-## Version: 0.1.0
+## Version: 0.2.0
 ## SavedVariables: SpotterDB
-## OptionalDeps: HereBeDragons-2.0
+## OptionalDeps: HereBeDragons-2.0, GatherMate2
 ## X-Embeds: HereBeDragons-2.0
 ## IconTexture: Interface\Icons\INV_Ore_Mithril_01
 
@@ -12,5 +12,6 @@ embeds.xml
 
 Core.lua
 Scanner.lua
+Verifier.lua
 Waypoint.lua
 MinimapButton.lua

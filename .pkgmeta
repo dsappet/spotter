@@ -1,7 +1,9 @@
 package-as: Spotter
 
 externals:
-    Libs/HereBeDragons: https://repos.wowace.com/wow/herebedragons/trunk
+    Libs/HereBeDragons:
+        url: https://github.com/Nevcairiel/HereBeDragons.git
+        tag: latest
 
 # Don't ship dev / repo metadata in the released zip.
 ignore:
