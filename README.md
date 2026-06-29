@@ -1,4 +1,4 @@
-# Spotter
+# Spotter [DEPRECATED] - I never really got this working, seems impossible with the limitations of the WoW addon system. Probably whiy this addon doesn't exist already.
 
 A World of Warcraft addon that points the native 3D waypoint arrow at the nearest known ore node, using GatherMate2's harvested node database for positions.
 
